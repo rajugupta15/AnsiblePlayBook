@@ -1,0 +1,11 @@
+#********************************
+## Ec2 Variable
+#********************************
+key_name: 'VMock_Access_Key'
+instance_type: 'm1.small'
+security_group: 'VMock_sg'
+image: 'ami-e7035687'
+region: 'us-west-1'
+subnet_id: 'subnet-29da2171'
+public_ip: 'yes'
+private_key_location: '/home/ubuntu/Ec2ansiblePlaceBook/VMock_Access_Key.pem'
